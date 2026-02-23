@@ -9,7 +9,7 @@ The project is deployed online using **Netlify**.
 
 ## Live Demo
 
-- **Netlify Deployment:** [https://YOUR-NETLIFY-LINK.netlify.app](https://vkyrylishynaportfolio.netlify.app/)  
+- **Netlify Deployment:** [website](https://vkyrylishynaportfolio.netlify.app/)  
 
 ---
 
