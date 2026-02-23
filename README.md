@@ -150,23 +150,7 @@ function doPost (e) {
 - Google Sheets  
 - Fetch API  
 
-**Deployment**  
-- Netlify (automatic hosting and SSL)  
 
----
-
-## Running the Project Locally
-
-1. Clone the repository:  
-
-git clone  https://github.com/Kyrylishyna/portfolio.git
-
-
-2. Open the project folder  
-3. Launch the site by opening `index.html` in a browser  
-4. Ensure your Apps Script endpoint is active if you want the contact form to work locally  
-
----
 
 ## Deployment on Netlify
 
