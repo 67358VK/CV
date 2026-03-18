@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="red.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
 
 <nav>
 
-<img src="../IMG/logo.png" alt="myLogo" class="logo">
+<h3 class="logo">VKyrylishyna</h3>
 
 <ul id="side_menu">
 <li><a href="#header">Home</a></li>
@@ -31,12 +31,12 @@
 <li><a href="#skills">Skills</a></li>
 <li><a href="#portfolio">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
+<!--<i class="fa-solid fa-xmark" onclick="closeMenu()"></i>-->
 
-<i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
 
 </ul>
+<!--<i class="fa-solid fa-list" onclick="openMenu()"></i>-->
 
-<i class="fa-solid fa-list" onclick="openMenu()"></i>
 
 </nav>
 
@@ -203,8 +203,18 @@ Through coursework and hands-on projects, I've learned how to approach complex c
 </div>
 
 </div>
+<!--<button id="see_hard_btn">See more</button>-->
+<div id="buttons_skills">
 
-<button id="see_hard_btn">See more</button>
+<button id="hard_skills" >
+<i class="fa-solid fa-code icon"></i> Hard skills
+</button>
+
+<button id="soft_skills" class="active_btn">
+<i class="fa-solid fa-user icon"></i> Soft skills
+</button>
+
+</div>
 
 <div class="soft_skills_list">
 
@@ -249,8 +259,8 @@ Through coursework and hands-on projects, I've learned how to approach complex c
 </div>
 
 </div>
+<!--<button id="see_soft_btn">See more</button>-->
 
-<button id="see_soft_btn">See more</button>
 
 </div>
 
