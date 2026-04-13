@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="red.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/bd770e1cc8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<header id="header">
+<div class="container">
+
+<nav>
+
+<h3 class="logo">VKyrylishyna</h3>
+
+<ul id="side_menu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#portfolio">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+<!--<i class="fa-solid fa-xmark" onclick="closeMenu()"></i>-->
+
+
+</ul>
+<!--<i class="fa-solid fa-list" onclick="openMenu()"></i>-->
+
+
+</nav>
+
+<div id="header_text">
+<p>Web Development Student</p>
+<h1>Hi there! <br> I'm <span>Viktoriia Kyrylishyna</span></h1>
+</div>
+
+</div>
+</header>
+
+
+<article id="about">
+
+<div class="container">
+
+<div class="row">
+
+<section id="image">
+<img src="../IMG/main_photo.jpg">
+</section>
+
+<aside id="description">
+
+<h2 class="sub_title">About Me</h2>
+
+<p>
+I'm a third-year Computer Science student at Vistula University, currently working as a Swing Manager at McDonald's, where I coordinate team operations, analyze sales data, and troubleshoot technical systems such as POS, Drive-Thru, and inventory tools. I'm actively developing my skills in programming, data analysis, and IT systems through personal projects and practical, real-world experience.
+</p>
+
+<div class="tab_titles">
+
+<p class="tab_links active_link" onclick="opentab('experience')">Experience</p>
+<p class="tab_links" onclick="opentab('education')">Education</p>
+<p class="tab_links" onclick="opentab('languages')">Languages</p>
+
+</div>
+
+<div class="tab_contents active_tab" id="experience">
+<ul>
+<li>
+<span>McDonald's, May 2024 - Present</span><br>
+
+Currently working as a Swing Manager at McDonald's, I lead shift operations, coordinate team performance, and ensure smooth service delivery in a fast-paced environment.
+
+<br><br>
+
+My responsibilities include analyzing sales data to support operational decisions and troubleshooting technical systems such as POS, Drive-Thru, and inventory tools.
+
+<br><br>
+
+This role has sharpened my leadership, problem-solving, and technical skills through hands-on experience with real-time systems and data-driven processes.
+
+</li>
+</ul>
+</div>
+
+<div class="tab_contents" id="education">
+<ul>
+<li>
+<span>Vistula University, October 2023</span><br>
+
+Currently in my third year of the Computer Engineering program at Vistula University, I've built a solid understanding of modern IT systems and digital technologies.
+
+<br><br>
+
+The program combines theoretical knowledge with practical experience, helping me develop analytical thinking, problem-solving abilities, and a flexible approach to working with technology.
+
+<br><br>
+
+Through coursework and hands-on projects, I've learned how to approach complex challenges and adapt to the fast-evolving tech landscape.
+
+</li>
+</ul>
+</div>
+
+<div class="tab_contents" id="languages">
+<ul>
+
+<li><span>English</span><br>Advanced</li>
+<li><span>Polish</span><br>Fluent</li>
+<li><span>Ukranian</span><br>Native</li>
+
+</ul>
+</div>
+
+</aside>
+
+</div>
+</div>
+
+</article>
+
+
+
+<article id="skills">
+
+<div class="container">
+
+<h2 class="sub_title">My Skills</h2>
+
+<div id="buttons_skills">
+
+<button id="hard_skills" class="active_btn">
+<i class="fa-solid fa-code icon"></i> Hard skills
+</button>
+
+<button id="soft_skills">
+<i class="fa-solid fa-user icon"></i> Soft skills
+</button>
+
+</div>
+
+<div class="skills_list">
+
+<div>
+<h3>Programming</h3>
+<p>Experience with Java, Python, C#, and scripting languages for software development and automation.</p>
+</div>
+
+<div>
+<h3>Web Development</h3>
+<p>Knowledge of HTML, CSS, JavaScript, and PHP for building responsive websites and web applications.</p>
+</div>
+
+<div>
+<h3>Databases</h3>
+<p>Understanding of relational databases, SQL queries, and data modeling using MySQL.</p>
+</div>
+
+<div>
+<h3>Operating Systems</h3>
+<p>Exposure to Linux and Windows Server environments, including system configuration and administration.</p>
+</div>
+
+<div>
+<h3>Computer Networks</h3>
+<p>Basic understanding of TCP/IP, routing, switching, and network security principles.</p>
+</div>
+
+<div>
+<h3>Software Engineering</h3>
+<p>Familiar with Agile and Waterfall methodologies, Scrum practices, and tools like Jira and LibreOffice for planning, tracking, and team coordination.</p>
+</div>
+
+<div>
+<h3>IT Systems</h3>
+<p>Exposure to ERP, CRM, and POS systems used in business and retail environments.</p>
+</div>
+
+<div>
+<h3>Data Analysis</h3>
+<p>Ability to interpret and work with data using tools like Excel, SQL, and basic statistics.</p>
+</div>
+
+<div>
+<h3>Version Control</h3>
+<p>Using Git for collaborative development and code management.</p>
+</div>
+
+<div>
+<h3>Canva</h3>
+<p>Experience using Canva for creating visual content such as presentations, social media graphics, and branding materials.</p>
+</div>
+
+</div>
+<!--<button id="see_hard_btn">See more</button>-->
+<div id="buttons_skills">
+
+<button id="hard_skills" >
+<i class="fa-solid fa-code icon"></i> Hard skills
+</button>
+
+<button id="soft_skills" class="active_btn">
+<i class="fa-solid fa-user icon"></i> Soft skills
+</button>
+
+</div>
+
+<div class="soft_skills_list">
+
+<div>
+<h3>Communication</h3>
+<p>Clear and professional communication with team members, managers, and customers in fast-paced environments.</p>
+</div>
+
+<div>
+<h3>Teamwork</h3>
+<p>Collaborative mindset and ability to work effectively with diverse teams to achieve shared goals.</p>
+</div>
+
+<div>
+<h3>Problem Solving</h3>
+<p>Logical thinking and adaptability when facing technical or operational challenges.</p>
+</div>
+
+<div>
+<h3>Time Management</h3>
+<p>Ability to prioritize tasks and stay organized under pressure and tight deadlines.</p>
+</div>
+
+<div>
+<h3>Leadership</h3>
+<p>Experience in coordinating teams and leading shifts with responsibility and initiative.</p>
+</div>
+
+<div>
+<h3>Responsibility</h3>
+<p>Reliable and accountable in both technical tasks and team operations.</p>
+</div>
+
+<div>
+<h3>Customer Focus</h3>
+<p>Committed to delivering high-quality service and solving customer issues efficiently.</p>
+</div>
+
+<div>
+<h3>Adaptability</h3>
+<p>Quick to learn new tools and adjust to changing environments and technologies.</p>
+</div>
+
+</div>
+<!--<button id="see_soft_btn">See more</button>-->
+
+
+</div>
+
+</article>
+
+
+<article id="portfolio">
+
+<div class="container">
+
+<h2 class="sub_title">My Projects</h2>
+
+<p id="projects_description">
+From front-end interfaces to dynamic features, these projects showcase my ability to build responsive, functional, and well-structured digital solutions using modern web technologies.
+</p>
+
+<div class="work_list">
+
+<div class="work">
+<img src="../IMG/photo1.jpg">
+
+<div class="layer">
+<h3>Books&Readers</h3>
+<p>Manage your readers and books collection</p>
+
+<a href="https://github.com/Kyrylishyna/projectCRUD_Viktoriia.git" target="_blank">
+<i class="fa-solid fa-link"></i>
+</a>
+
+</div>
+</div>
+
+<div class="work">
+
+<img src="../IMG/photo2.jpg">
+
+<div class="layer">
+<h3>Portfolio</h3>
+<p>Responsive portfolio showcasing skills, projects, and interactive UI features.</p>
+
+<a href="https://github.com/Kyrylishyna/portfolio.git" target="_blank">
+<i class="fa-solid fa-link"></i>
+</a>
+
+</div>
+</div>
+
+<div class="work placeholder"></div>
+
+</div>
+
+</div>
+
+</article>
+
+
+<article id="contact">
+
+<div class="container">
+
+<div class="row">
+
+<div class="contact_left">
+
+<h2 class="sub_title">Contact Me</h2>
+
+<p><i class="fa-solid fa-envelope"></i> kyrylishynaviktoriia@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i> +48 798 751 029</p>
+
+<div class="social_media">
+
+<a href="http://www.linkedin.com/in/viktoriiakyrylishyna">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="https://www.instagram.com/kurulishuna/">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+</div>
+
+<a href="../FILES/ViktoriiaKyrylishynaPLCV.pdf" download class="btn">
+Download CV
+</a>
+
+</div>
+
+
+<div class="contact_right">
+
+<form name="submit-to-google-sheet">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Email" required>
+
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit" class="btn">Submit</button>
+
+</form>
+
+<span id="msg"></span>
+
+</div>
+
+</div>
+
+</div>
+
+</article>
+
+
+<footer>
+
+<div class="container">
+<p>&copy; Viktoriia Kyrylishyna</p>
+</div>
+
+</footer>
+
+</body>
+</html>
