@@ -1,0 +1,24 @@
+{
+  "hardSkills": [
+    { "title": "Programming", "desc": "Experience with Java, Python, C#, and scripting languages for software development and automation." },
+    { "title": "Web Development", "desc": "Knowledge of HTML, CSS, JavaScript, and PHP for building responsive websites and web applications." },
+    { "title": "Databases", "desc": "Understanding of relational databases, SQL queries, and data modeling using MySQL." },
+    { "title": "Operating Systems", "desc": "Exposure to Linux and Windows Server environments, including system configuration and administration." },
+    { "title": "Computer Networks", "desc": "Basic understanding of TCP/IP, routing, switching, and network security principles." },
+    { "title": "Software Engineering", "desc": "Familiar with Agile and Waterfall methodologies, Scrum practices, and tools like Jira and LibreOffice." },
+    { "title": "IT Systems", "desc": "Exposure to ERP, CRM, and POS systems used in business and retail environments." },
+    { "title": "Data Analysis", "desc": "Ability to interpret and work with data using tools like Excel, SQL, and basic statistics." },
+    { "title": "Version Control", "desc": "Using Git for collaborative development and code management." },
+    { "title": "Canva", "desc": "Experience using Canva for creating visual content such as presentations, social media graphics, and branding materials." }
+  ],
+  "softSkills": [
+    { "title": "Communication", "desc": "Clear and professional communication with team members, managers, and customers." },
+    { "title": "Teamwork", "desc": "Collaborative mindset and ability to work effectively with diverse teams." },
+    { "title": "Problem Solving", "desc": "Logical thinking and adaptability when facing technical or operational challenges." },
+    { "title": "Time Management", "desc": "Ability to prioritize tasks and stay organized under pressure and tight deadlines." },
+    { "title": "Leadership", "desc": "Experience in coordinating teams and leading shifts with responsibility and initiative." },
+    { "title": "Responsibility", "desc": "Reliable and accountable in both technical tasks and team operations." },
+    { "title": "Customer Focus", "desc": "Committed to delivering high-quality service and solving customer issues efficiently." },
+    { "title": "Adaptability", "desc": "Quick to learn new tools and adjust to changing environments and technologies." }
+  ]
+}
