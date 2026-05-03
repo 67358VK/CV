@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "title": "Books&Readers",
+      "desc": "Manage your readers and books collection. A system to keep track of library resources and user activity.",
+      "link": "https://github.com/Kyrylishyna/projectCRUD_Viktoriia.git",
+      "img": "IMG/photo1.jpg"
+    },
+    {
+      "title": "Portfolio",
+      "desc": "Responsive portfolio showcasing skills, projects, and interactive UI features developed with modern web standards.",
+      "link": "https://github.com/Kyrylishyna/portfolio.git",
+      "img": "IMG/photo2.jpg"
+    }
+    
+  ]
+}
